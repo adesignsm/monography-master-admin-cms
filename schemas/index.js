@@ -1,1 +1,5 @@
-export const schemaTypes = []
+import stripTemplate from "./stripTemplate"
+
+export const schemaTypes = [
+    stripTemplate
+]
